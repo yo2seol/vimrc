@@ -161,6 +161,7 @@ func! SyntasticCheckCoffeescript()
 endfunc
 nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 
+let g:syntastic_mode_map = { 'passive_filetypes': ['tex'] }
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
