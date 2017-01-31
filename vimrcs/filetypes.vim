@@ -54,3 +54,10 @@ endfunction
 au FileType coffee call CoffeeScriptFold()
 
 au FileType gitcommit call setpos('.', [0, 1, 1, 0])
+
+
+""""""""""""""""""""""""""""""
+" => Latex section
+"""""""""""""""""""""""""""""""
+autocmd BufReadPre *.tex setlocal textwidth=70
+
