@@ -166,6 +166,14 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 
 let g:syntastic_mode_map = { 'passive_filetypes': ['tex'] }
 
+let g:syntastic_c_no_default_include_dirs = 1
+
+let g:syntastic_c_compiler_options = ''
+
+let g:syntastic_c_config_file = '.syntastic_c_config'
+
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

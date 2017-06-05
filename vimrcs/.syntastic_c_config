@@ -1,0 +1,4 @@
+dd
+-I/lib/modules/4.2.0-35-generic/build/include
+-include
+/usr/src/linux-headers-4.2.0-35-generic/include/linux/module.h
