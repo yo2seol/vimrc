@@ -179,3 +179,9 @@ let g:syntastic_c_config_file = '.syntastic_c_config'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-polyglot
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plugin 'sheerun/vim-polyglot'

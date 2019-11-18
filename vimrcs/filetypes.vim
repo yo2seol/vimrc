@@ -43,7 +43,6 @@ function! JavaScriptFold()
     setl foldtext=FoldText()
 endfunction
 
-
 """"""""""""""""""""""""""""""
 " => CoffeeScript section
 """""""""""""""""""""""""""""""
@@ -59,5 +58,5 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 """"""""""""""""""""""""""""""
 " => Latex section
 """""""""""""""""""""""""""""""
-autocmd BufReadPre *.tex setlocal textwidth=70
+"autocmd BufReadPre *.tex setlocal textwidth=70"
 
