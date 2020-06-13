@@ -184,4 +184,4 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-polyglot
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plugin 'sheerun/vim-polyglot'
+" Plugin 'sheerun/vim-polyglot'
